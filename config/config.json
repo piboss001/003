@@ -7,10 +7,10 @@
     "ID": 1
   },
   "NFT_NAME": "Piclilbear",
-  "SYMBOL": "Piclilbear NFTs",
-  "MAX_SUPPLY": 5000,
+  "SYMBOL": "Piclilbear NFTs 1000 free mint ",
+  "MAX_SUPPLY": 1000,
   "WEI_COST": 30000000000000000,
-  "DISPLAY_COST": 0.03,
+  "DISPLAY_COST": 0,
   "GAS_LIMIT": 3000000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/piclilbear-westcoast",
