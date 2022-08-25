@@ -1,8 +1,16 @@
 :root {
   --primary: #ffffff; 
   --primary-text: #b9b9b9;
-  --secondary: #c5c5c5;
+  --secondary: #ffffff;
   --secondary-text: #3f3f3f;
+  --qianbao: #ffffff42;
+  --shang: #851613;
+  --shang-text: #c0c0c0;
+  --mint: #851613;
+  --mint2: #85171357;
+  --mint-text: #ffffff;
   --accent: #00000069;
   --accent-text: #ffffff;
+  --dibu-text: #ffffff63;
+  --zhong-text: #ffffff98;
 }
