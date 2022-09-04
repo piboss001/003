@@ -56,7 +56,7 @@
 #xiabufen .jieshao {
   display: grid;
   width: 1000px;
-  grid-template-columns: 58.33% 41.66%;
+  grid-template-columns: 62% auto;
   grid-template-rows: 338px 200px;
 }
 #xiabufen .jieshao .jieshaozuo {
@@ -74,9 +74,10 @@
 }
 #xiabufen .jieshao .jieshaozuo P {
   color: #afafaf;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 100;
   line-height: 1.5;
+  text-align: justify;
 }
 #xiabufen .jieshao .jieshaotupian .yousi {
   display: flex;
@@ -129,9 +130,9 @@
 #xiabufen .tuandui .tuanduixinxi {
   display: grid;
   width: 1000px;
-  grid-template-columns: 187px 805px;
+  grid-template-columns: 212px 805px;
   justify-content: space-between;
-  padding-bottom: 30px;
+  padding-bottom: 7px;
 }
 #xiabufen .tuandui .tuanduixinxi .tuanduitupian img {
   border-radius: 8px;
