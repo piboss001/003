@@ -7,6 +7,13 @@
     //背景颜色
     background-color: rgb(0, 0, 0);
     border-bottom: 1px solid rgb(48, 48, 48);
+    //顶部浮窗开始
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    //顶部浮窗结束
     .shang {
       //背景高度
       height: 65px;
@@ -73,7 +80,7 @@
 //中间层
 #xiabufen {
   //外边框
-  padding-top: 200px;
+  padding-top: 50px;
   //模块高度
   height: 3500px;
   //背景颜色
@@ -84,7 +91,7 @@
   align-items: center;
   //排版垂直显示
   flex-direction: column;
-  .jieshao {
+  #jieshao {
     //排版模式 grid
     display: grid;
     //模块高度
@@ -93,6 +100,7 @@
     grid-template-columns: 62% auto;
     //上下比例
     grid-template-rows: 338px 200px;
+    padding-top: 150px;
     .jieshaozuo {
       display: flex;
       flex-direction: column;
@@ -177,11 +185,12 @@
     display: flex;
     width: 1050px;
     border-bottom: 1px solid #cccccc4f;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
   }
-  .tuandui {
+  #tuandui {
     width: 1000px;
     padding-bottom: 200px;
+    padding-top: 150px;
     h1 {
       //文字颜色
       color: #ffffff;
@@ -243,9 +252,10 @@
       }
     }
   }
-  .luxian {
+  #luxian {
     width: 1000px;
     padding-bottom: 177px;
+    padding-top: 150px;
     .luxiantu {
       .luxiandabiaoti {
         h1 {

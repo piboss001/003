@@ -1,6 +1,11 @@
 #wrapper #header {
   background-color: #000000;
   border-bottom: 1px solid #303030;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 #wrapper #header .shang {
   height: 65px;
@@ -46,25 +51,26 @@
   width: 20px;
 }
 #xiabufen {
-  padding-top: 200px;
+  padding-top: 50px;
   height: 3500px;
   background-color: black;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-#xiabufen .jieshao {
+#xiabufen #jieshao {
   display: grid;
   width: 1000px;
   grid-template-columns: 62% auto;
   grid-template-rows: 338px 200px;
+  padding-top: 150px;
 }
-#xiabufen .jieshao .jieshaozuo {
+#xiabufen #jieshao .jieshaozuo {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-#xiabufen .jieshao .jieshaozuo H1 {
+#xiabufen #jieshao .jieshaozuo H1 {
   color: #ffffff;
   font-size: 35px;
   font-weight: 900;
@@ -72,54 +78,55 @@
   line-height: 1.2;
   padding-bottom: 15px;
 }
-#xiabufen .jieshao .jieshaozuo P {
+#xiabufen #jieshao .jieshaozuo P {
   color: #afafaf;
   font-size: 15px;
   font-weight: 100;
   line-height: 1.5;
   text-align: justify;
 }
-#xiabufen .jieshao .jieshaotupian .yousi {
+#xiabufen #jieshao .jieshaotupian .yousi {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
-#xiabufen .jieshao .jieshaotupian .yousi .yousishang {
+#xiabufen #jieshao .jieshaotupian .yousi .yousishang {
   display: flex;
 }
-#xiabufen .jieshao .jieshaotupian .yousi .yousishang .yousizuo1 {
+#xiabufen #jieshao .jieshaotupian .yousi .yousishang .yousizuo1 {
   padding-right: 10px;
   padding-bottom: 7px;
 }
-#xiabufen .jieshao .jieshaotupian .yousi .yousishang .yousizuo1 img {
+#xiabufen #jieshao .jieshaotupian .yousi .yousishang .yousizuo1 img {
   border-radius: 8px;
 }
-#xiabufen .jieshao .jieshaotupian .yousi .yousishang .yousiyou1 img {
+#xiabufen #jieshao .jieshaotupian .yousi .yousishang .yousiyou1 img {
   border-radius: 8px;
 }
-#xiabufen .jieshao .jieshaotupian .yousi .yousixia {
+#xiabufen #jieshao .jieshaotupian .yousi .yousixia {
   display: flex;
 }
-#xiabufen .jieshao .jieshaotupian .yousi .yousixia .yousizuo2 {
+#xiabufen #jieshao .jieshaotupian .yousi .yousixia .yousizuo2 {
   padding-right: 10px;
 }
-#xiabufen .jieshao .jieshaotupian .yousi .yousixia .yousizuo2 img {
+#xiabufen #jieshao .jieshaotupian .yousi .yousixia .yousizuo2 img {
   border-radius: 8px;
 }
-#xiabufen .jieshao .jieshaotupian .yousi .yousixia .yousiyou2 img {
+#xiabufen #jieshao .jieshaotupian .yousi .yousixia .yousiyou2 img {
   border-radius: 8px;
 }
 #xiabufen #xiantiao {
   display: flex;
   width: 1050px;
   border-bottom: 1px solid #cccccc4f;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
-#xiabufen .tuandui {
+#xiabufen #tuandui {
   width: 1000px;
   padding-bottom: 200px;
+  padding-top: 150px;
 }
-#xiabufen .tuandui h1 {
+#xiabufen #tuandui h1 {
   color: #ffffff;
   font-size: 35px;
   font-weight: 900;
@@ -127,41 +134,42 @@
   line-height: 1.2;
   padding-bottom: 58px;
 }
-#xiabufen .tuandui .tuanduixinxi {
+#xiabufen #tuandui .tuanduixinxi {
   display: grid;
   width: 1000px;
   grid-template-columns: 212px 805px;
   justify-content: space-between;
   padding-bottom: 7px;
 }
-#xiabufen .tuandui .tuanduixinxi .tuanduitupian img {
+#xiabufen #tuandui .tuanduixinxi .tuanduitupian img {
   border-radius: 8px;
 }
-#xiabufen .tuandui .tuanduixinxi p {
+#xiabufen #tuandui .tuanduixinxi p {
   display: grid;
   align-items: center;
   align-content: center;
   text-align: justify;
   grid-template-rows: 1fr 1fr 1fr 1fr;
 }
-#xiabufen .tuandui .tuanduixinxi p a {
+#xiabufen #tuandui .tuanduixinxi p a {
   color: #c0c0c0;
   font-size: 18px;
   font-weight: 800;
   grid-row-start: 2;
 }
-#xiabufen .tuandui .tuanduixinxi p b {
+#xiabufen #tuandui .tuanduixinxi p b {
   color: #afafaf;
   font-size: 14px;
   font-weight: 100;
   line-height: 1.5;
   grid-row-start: 3;
 }
-#xiabufen .luxian {
+#xiabufen #luxian {
   width: 1000px;
   padding-bottom: 177px;
+  padding-top: 150px;
 }
-#xiabufen .luxian .luxiantu .luxiandabiaoti h1 {
+#xiabufen #luxian .luxiantu .luxiandabiaoti h1 {
   color: #ffffff;
   font-size: 35px;
   font-weight: 900;
@@ -169,34 +177,34 @@
   line-height: 1.2;
   padding-bottom: 58px;
 }
-#xiabufen .luxian .luxiantu .luxianxinxi {
+#xiabufen #luxian .luxiantu .luxianxinxi {
   display: grid;
   grid-template-columns: 60%;
 }
-#xiabufen .luxian .luxiantu .luxianxinxi h2 {
+#xiabufen #luxian .luxiantu .luxianxinxi h2 {
   color: #f3d04f;
   font-size: 30px;
   font-weight: 900;
   padding-bottom: 10px;
 }
-#xiabufen .luxian .luxiantu .luxianxinxi h3 {
+#xiabufen #luxian .luxiantu .luxianxinxi h3 {
   color: #ffffff;
   font-size: 23px;
   font-weight: 900;
   padding-bottom: 10px;
 }
-#xiabufen .luxian .luxiantu .luxianxinxi h1 {
+#xiabufen #luxian .luxiantu .luxianxinxi h1 {
   color: #afafaf;
   font-size: 14px;
   line-height: 2;
 }
-#xiabufen .luxian .luxiantu .luxianxinxi a {
+#xiabufen #luxian .luxiantu .luxianxinxi a {
   color: #afafaf;
   font-size: 14px;
   line-height: 2;
   padding-bottom: 15px;
 }
-#xiabufen .luxian .luxiantu h2 {
+#xiabufen #luxian .luxiantu h2 {
   color: #afafaf;
   font-size: 14px;
   padding-bottom: 30px;
